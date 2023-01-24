@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;800&display=swap');
+
+body {
+  margin: 0;
+}
+section{
+  height: 100vh;
+  background: linear-gradient(to bottom right, #25ffdb, #096092);
+  font-family: "open sans",sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:#63626e;
+}
+
+article {
+  display: flex;
+}
+
+.bild {
+  width: 60%;
+  background-image: url("https://images.unsplash.com/photo-1581472723648-909f4851d4ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGNvZGluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60");
+  background-size: cover;
+  background-position: center;
+  border-radius: 50px 0 0 50px;
+}
+
+.info {
+width: 40%;
+background-color: white;
+  padding: 5%;
+  border-radius: 0 50px 50px 0;
+}
+.info h1{
+  font size: 36px;
+}
+
+.info p{
+  margin-bottom: 75px;
+}
+
+.info a{
+  display: block;
+  width:150px;
+  background-color: #25ffdb;
+  text-align: center;
+  padding: 5px 0;
+  color: #63626e;
+  border-radius: 16px;
+  box-shadow: 4px 4px 0 black;
+  text-decoration: none;
+  transition: all 0.5s linear;
+}
